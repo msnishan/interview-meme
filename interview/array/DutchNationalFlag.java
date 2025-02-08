@@ -32,7 +32,6 @@ public class DutchNationalFlag {
                 input[high] = 2;
                 high--;
             }
-
         }
     }
 
