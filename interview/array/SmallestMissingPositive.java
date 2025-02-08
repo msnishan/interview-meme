@@ -1,3 +1,6 @@
+
+import java.util.*;
+
 public class SmallestMissingPositive {
     
     
@@ -25,7 +28,7 @@ public class SmallestMissingPositive {
         Output: 1
         Explanation: The smallest positive integer 1 is missing.
 
-        [9,7,1,2,0,-1][]
+        [9,7,1,2,0,-1]
         
 
         Constraints:
@@ -34,12 +37,30 @@ public class SmallestMissingPositive {
         -231 <= nums[i] <= 231 - 1
      */
     public static int smallestPositiveInteger(int[] input) {
-        return 0;
+        // cyclic sort
+        for(int i = 0; i < input.length; i++) {
+            if (input[i] > 0 && input[i] < input.length && input[i] != input[input[i] - 1]) {
+                int temp = input[i];
+                input[i] = input[temp - 1];
+                input[temp - 1] = temp;
+            }
+        }
+        System.out.println(Arrays.toString(input));
+        for(int i = 0; i < input.length; i++) {
+            if (input[i] != i + 1) {
+                return i + 1;
+            }
+        }
+
+
+        return input.length + 1;
     }
     
     
     
     public static void main(String[] args) {
-        
+        System.out.println(smallestPositiveInteger(new int[] {3,4,-1,1}));
+        System.out.println(smallestPositiveInteger(new int[] {7,8,9,11,12}));
+        System.out.println(smallestPositiveInteger(new int[] {-5,-1}));
     }
 }
