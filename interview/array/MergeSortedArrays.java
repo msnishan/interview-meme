@@ -5,6 +5,7 @@ public class MergeSortedArrays {
 
     
     /**
+     * 4. Merge two sorted arrays without using extra space (Gap Algorithm)
      * Problem statement: Given two sorted arrays arr1[] and arr2[] of sizes n and m in 
      * non-decreasing order. Merge them in sorted order. 
      * Modify arr1 so that it contains the first N elements and modify arr2 so that it 
@@ -34,7 +35,6 @@ public class MergeSortedArrays {
             }
             if (gap == 1) break;
             gap = (int) Math.ceil(gap/2);
-
         }
     }
 

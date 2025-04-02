@@ -8,11 +8,10 @@ public class DutchNationalFlag {
     
 
     /**
-     * Given an array consisting of only 0s, 1s, and 2s. The task is to sort the given array. The solution should put all 0s first, then all 1s and all 2s in last.
-        [1,2,0,1,0,2,2,1,0] => [0,0,0,1,1,1,2,2,2]
-
-
-
+     * 2. Sort an array of 0s, 1s, and 2s (Dutch National Flag Problem)
+     * Given an array consisting of only 0s, 1s, and 2s. The task is to sort the given array. 
+     * The solution should put all 0s first, then all 1s and all 2s in last.
+     *   [1,2,0,1,0,2,2,1,0] => [0,0,0,1,1,1,2,2,2]
      */
     public static void dnf(int[] input) {
         

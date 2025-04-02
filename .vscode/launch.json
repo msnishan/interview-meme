@@ -5,6 +5,55 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "LongestConsecutive",
+            "request": "launch",
+            "mainClass": "LongestConsecutive",
+            "projectName": "interview-meme_ad7fc05e"
+        },
+        {
+            "type": "java",
+            "name": "SearchInSortedRotatedArray",
+            "request": "launch",
+            "mainClass": "SearchInSortedRotatedArray",
+            "projectName": "interview-meme_ad7fc05e"
+        },
+        {
+            "type": "java",
+            "name": "MoveKElementsReversalAlgorithm",
+            "request": "launch",
+            "mainClass": "MoveKElementsReversalAlgorithm",
+            "projectName": "interview-meme_ad7fc05e"
+        },
+        {
+            "type": "java",
+            "name": "TrappingRainWater",
+            "request": "launch",
+            "mainClass": "TrappingRainWater",
+            "projectName": "interview-meme_ad7fc05e"
+        },
+        {
+            "type": "java",
+            "name": "FloydTortoise",
+            "request": "launch",
+            "mainClass": "FloydTortoise",
+            "projectName": "interview-meme_ad7fc05e"
+        },
+        {
+            "type": "java",
+            "name": "MooreVoting",
+            "request": "launch",
+            "mainClass": "MooreVoting",
+            "projectName": "interview-meme_ad7fc05e"
+        },
+        {
+            "type": "java",
+            "name": "SmallestMissingPositive",
+            "request": "launch",
+            "mainClass": "SmallestMissingPositive",
+            "projectName": "interview-meme_ad7fc05e"
+        },
+        {
             "type": "jdk",
             "request": "launch",
             "name": "Launch Java App"
