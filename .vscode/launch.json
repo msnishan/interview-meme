@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MedianOfTwoSortedArrays",
+            "request": "launch",
+            "mainClass": "MedianOfTwoSortedArrays",
+            "projectName": "interview-meme_ad7fc05e"
+        },
+        {
+            "type": "java",
+            "name": "SubarraySumEqualsK",
+            "request": "launch",
+            "mainClass": "SubarraySumEqualsK",
+            "projectName": "interview-meme_ad7fc05e"
+        },
+        {
+            "type": "java",
+            "name": "SubarraySumEqualsK",
+            "request": "launch",
+            "mainClass": "interview.SubarraySumEqualsK",
+            "projectName": "interview-meme_ad7fc05e"
+        },
+        {
+            "type": "java",
+            "name": "KClosestElements",
+            "request": "launch",
+            "mainClass": "KClosestElements",
+            "projectName": "interview-meme_ad7fc05e"
+        },
+        {
+            "type": "java",
+            "name": "MaxProductSubarray",
+            "request": "launch",
+            "mainClass": "MaxProductSubarray",
+            "projectName": "interview-meme_ad7fc05e"
+        },
+        {
+            "type": "java",
             "name": "LongestConsecutive",
             "request": "launch",
             "mainClass": "LongestConsecutive",
