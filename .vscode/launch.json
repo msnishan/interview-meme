@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestRepeatingCharReplacement",
+            "request": "launch",
+            "mainClass": "interview.string.LongestRepeatingCharReplacement",
+            "projectName": "interview-meme_ad7fc05e"
+        },
+        {
+            "type": "java",
+            "name": "MinimumWindowSubstring",
+            "request": "launch",
+            "mainClass": "interview.string.MinimumWindowSubstring",
+            "projectName": "interview-meme_ad7fc05e"
+        },
+        {
+            "type": "java",
+            "name": "WildcardPatternMatching",
+            "request": "launch",
+            "mainClass": "interview.string.WildcardPatternMatching",
+            "projectName": "interview-meme_ad7fc05e"
+        },
+        {
+            "type": "java",
+            "name": "LongestPalindromicSubstring",
+            "request": "launch",
+            "mainClass": "interview.string.LongestPalindromicSubstring",
+            "projectName": "interview-meme_ad7fc05e"
+        },
+        {
+            "type": "java",
             "name": "MedianOfTwoSortedArrays",
             "request": "launch",
             "mainClass": "MedianOfTwoSortedArrays",
