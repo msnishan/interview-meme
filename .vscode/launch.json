@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "WordBreakSolverOptimized",
+            "request": "launch",
+            "mainClass": "interview.string.WordBreakSolverOptimized",
+            "projectName": "interview-meme_ad7fc05e"
+        },
+        {
+            "type": "java",
+            "name": "WordBreakSolver",
+            "request": "launch",
+            "mainClass": "interview.string.WordBreakSolver",
+            "projectName": "interview-meme_ad7fc05e"
+        },
+        {
+            "type": "java",
+            "name": "GroupAnagrams",
+            "request": "launch",
+            "mainClass": "interview.string.GroupAnagrams",
+            "projectName": "interview-meme_ad7fc05e"
+        },
+        {
+            "type": "java",
+            "name": "AnagramChecker",
+            "request": "launch",
+            "mainClass": "interview.string.AnagramChecker",
+            "projectName": "interview-meme_ad7fc05e"
+        },
+        {
+            "type": "java",
             "name": "LongestRepeatingCharReplacement",
             "request": "launch",
             "mainClass": "interview.string.LongestRepeatingCharReplacement",
